@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Nono Timer
 // @namespace    https://github.com/squall831/Nono-Timer
-// @version      1.0.0
+// @version      1.0.1
 // @description  Adds a timer to Rosiminc's Nono Café with some basic functions.
 // @author       squall831
 // @match        https://rosiminc.github.io/sg-nonograms/*
@@ -58,7 +58,7 @@ function start(){
 function stop(){
     if(isRunning){
         clearInterval(timer);
-        elapsedTime = Date.now() - startTime;
+        elapsedTime = Date.now() - startTime - savedTime;
         isRunning = false;
     }
 };
