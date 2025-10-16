@@ -7,6 +7,7 @@
 // @match        https://rosiminc.github.io/sg-nonograms/*
 // @icon         https://cdn.steamgifts.com/img/favicon.ico
 // @grant        none
+// @license		 MIT
 // ==/UserScript==
 
 
